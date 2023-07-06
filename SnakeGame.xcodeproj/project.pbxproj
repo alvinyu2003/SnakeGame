@@ -11,6 +11,27 @@
 		D42224752A5754660024C402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224742A5754660024C402 /* ContentView.swift */; };
 		D42224772A5754670024C402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42224762A5754670024C402 /* Assets.xcassets */; };
 		D422247A2A5754670024C402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42224792A5754670024C402 /* Preview Assets.xcassets */; };
+		D42224CF2A5754B20024C402 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224B42A5754B20024C402 /* Scene.swift */; };
+		D42224D12A5754B20024C402 /* PointsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224B72A5754B20024C402 /* PointsComponent.swift */; };
+		D42224D22A5754B20024C402 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224B82A5754B20024C402 /* RenderComponent.swift */; };
+		D42224D32A5754B20024C402 /* MovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224B92A5754B20024C402 /* MovementComponent.swift */; };
+		D42224D42A5754B20024C402 /* GrowthComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224BA2A5754B20024C402 /* GrowthComponent.swift */; };
+		D42224D52A5754B20024C402 /* ScoreComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224BB2A5754B20024C402 /* ScoreComponent.swift */; };
+		D42224D62A5754B20024C402 /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224BC2A5754B20024C402 /* InputComponent.swift */; };
+		D42224D72A5754B20024C402 /* RespawnComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224BD2A5754B20024C402 /* RespawnComponent.swift */; };
+		D42224D82A5754B20024C402 /* CollisionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224BE2A5754B20024C402 /* CollisionComponent.swift */; };
+		D42224DA2A5754B20024C402 /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C12A5754B20024C402 /* GameOverState.swift */; };
+		D42224DB2A5754B20024C402 /* GameRunningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C22A5754B20024C402 /* GameRunningState.swift */; };
+		D42224DC2A5754B20024C402 /* GrowthSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C42A5754B20024C402 /* GrowthSystem.swift */; };
+		D42224DD2A5754B20024C402 /* CollectableComponentSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C52A5754B20024C402 /* CollectableComponentSystem.swift */; };
+		D42224DE2A5754B20024C402 /* CollisionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C62A5754B20024C402 /* CollisionSystem.swift */; };
+		D42224DF2A5754B20024C402 /* InputSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C72A5754B20024C402 /* InputSystem.swift */; };
+		D42224E02A5754B20024C402 /* MovementSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C82A5754B20024C402 /* MovementSystem.swift */; };
+		D42224E12A5754B20024C402 /* RespawnSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224C92A5754B20024C402 /* RespawnSystem.swift */; };
+		D42224E22A5754B20024C402 /* SnakeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224CB2A5754B20024C402 /* SnakeEntity.swift */; };
+		D42224E32A5754B20024C402 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224CC2A5754B20024C402 /* EntityManager.swift */; };
+		D42224E42A5754B20024C402 /* WallEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224CD2A5754B20024C402 /* WallEntity.swift */; };
+		D42224E52A5754B20024C402 /* AppleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42224CE2A5754B20024C402 /* AppleEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,27 @@
 		D42224742A5754660024C402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D42224762A5754670024C402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42224792A5754670024C402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D42224B42A5754B20024C402 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		D42224B72A5754B20024C402 /* PointsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsComponent.swift; sourceTree = "<group>"; };
+		D42224B82A5754B20024C402 /* RenderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
+		D42224B92A5754B20024C402 /* MovementComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementComponent.swift; sourceTree = "<group>"; };
+		D42224BA2A5754B20024C402 /* GrowthComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowthComponent.swift; sourceTree = "<group>"; };
+		D42224BB2A5754B20024C402 /* ScoreComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreComponent.swift; sourceTree = "<group>"; };
+		D42224BC2A5754B20024C402 /* InputComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
+		D42224BD2A5754B20024C402 /* RespawnComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespawnComponent.swift; sourceTree = "<group>"; };
+		D42224BE2A5754B20024C402 /* CollisionComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionComponent.swift; sourceTree = "<group>"; };
+		D42224C12A5754B20024C402 /* GameOverState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverState.swift; sourceTree = "<group>"; };
+		D42224C22A5754B20024C402 /* GameRunningState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRunningState.swift; sourceTree = "<group>"; };
+		D42224C42A5754B20024C402 /* GrowthSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowthSystem.swift; sourceTree = "<group>"; };
+		D42224C52A5754B20024C402 /* CollectableComponentSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectableComponentSystem.swift; sourceTree = "<group>"; };
+		D42224C62A5754B20024C402 /* CollisionSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionSystem.swift; sourceTree = "<group>"; };
+		D42224C72A5754B20024C402 /* InputSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSystem.swift; sourceTree = "<group>"; };
+		D42224C82A5754B20024C402 /* MovementSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementSystem.swift; sourceTree = "<group>"; };
+		D42224C92A5754B20024C402 /* RespawnSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespawnSystem.swift; sourceTree = "<group>"; };
+		D42224CB2A5754B20024C402 /* SnakeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeEntity.swift; sourceTree = "<group>"; };
+		D42224CC2A5754B20024C402 /* EntityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		D42224CD2A5754B20024C402 /* WallEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallEntity.swift; sourceTree = "<group>"; };
+		D42224CE2A5754B20024C402 /* AppleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,7 @@
 			children = (
 				D42224722A5754660024C402 /* SnakeGameApp.swift */,
 				D42224742A5754660024C402 /* ContentView.swift */,
+				D42224B32A5754B20024C402 /* SnakeV1 */,
 				D42224762A5754670024C402 /* Assets.xcassets */,
 				D42224782A5754670024C402 /* Preview Content */,
 			);
@@ -65,6 +108,66 @@
 				D42224792A5754670024C402 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D42224B32A5754B20024C402 /* SnakeV1 */ = {
+			isa = PBXGroup;
+			children = (
+				D42224B42A5754B20024C402 /* Scene.swift */,
+				D42224B62A5754B20024C402 /* Components */,
+				D42224C02A5754B20024C402 /* States */,
+				D42224C32A5754B20024C402 /* Systems */,
+				D42224CA2A5754B20024C402 /* Entities */,
+			);
+			path = SnakeV1;
+			sourceTree = "<group>";
+		};
+		D42224B62A5754B20024C402 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D42224B72A5754B20024C402 /* PointsComponent.swift */,
+				D42224B82A5754B20024C402 /* RenderComponent.swift */,
+				D42224B92A5754B20024C402 /* MovementComponent.swift */,
+				D42224BA2A5754B20024C402 /* GrowthComponent.swift */,
+				D42224BB2A5754B20024C402 /* ScoreComponent.swift */,
+				D42224BC2A5754B20024C402 /* InputComponent.swift */,
+				D42224BD2A5754B20024C402 /* RespawnComponent.swift */,
+				D42224BE2A5754B20024C402 /* CollisionComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D42224C02A5754B20024C402 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				D42224C12A5754B20024C402 /* GameOverState.swift */,
+				D42224C22A5754B20024C402 /* GameRunningState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		D42224C32A5754B20024C402 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				D42224C42A5754B20024C402 /* GrowthSystem.swift */,
+				D42224C52A5754B20024C402 /* CollectableComponentSystem.swift */,
+				D42224C62A5754B20024C402 /* CollisionSystem.swift */,
+				D42224C72A5754B20024C402 /* InputSystem.swift */,
+				D42224C82A5754B20024C402 /* MovementSystem.swift */,
+				D42224C92A5754B20024C402 /* RespawnSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		D42224CA2A5754B20024C402 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D42224CB2A5754B20024C402 /* SnakeEntity.swift */,
+				D42224CC2A5754B20024C402 /* EntityManager.swift */,
+				D42224CD2A5754B20024C402 /* WallEntity.swift */,
+				D42224CE2A5754B20024C402 /* AppleEntity.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +240,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42224E32A5754B20024C402 /* EntityManager.swift in Sources */,
+				D42224DE2A5754B20024C402 /* CollisionSystem.swift in Sources */,
+				D42224D12A5754B20024C402 /* PointsComponent.swift in Sources */,
+				D42224E22A5754B20024C402 /* SnakeEntity.swift in Sources */,
+				D42224D42A5754B20024C402 /* GrowthComponent.swift in Sources */,
+				D42224D22A5754B20024C402 /* RenderComponent.swift in Sources */,
+				D42224D62A5754B20024C402 /* InputComponent.swift in Sources */,
+				D42224DA2A5754B20024C402 /* GameOverState.swift in Sources */,
+				D42224DF2A5754B20024C402 /* InputSystem.swift in Sources */,
+				D42224D82A5754B20024C402 /* CollisionComponent.swift in Sources */,
+				D42224E52A5754B20024C402 /* AppleEntity.swift in Sources */,
+				D42224DC2A5754B20024C402 /* GrowthSystem.swift in Sources */,
+				D42224E42A5754B20024C402 /* WallEntity.swift in Sources */,
+				D42224D72A5754B20024C402 /* RespawnComponent.swift in Sources */,
 				D42224752A5754660024C402 /* ContentView.swift in Sources */,
+				D42224DD2A5754B20024C402 /* CollectableComponentSystem.swift in Sources */,
+				D42224E02A5754B20024C402 /* MovementSystem.swift in Sources */,
 				D42224732A5754660024C402 /* SnakeGameApp.swift in Sources */,
+				D42224E12A5754B20024C402 /* RespawnSystem.swift in Sources */,
+				D42224D32A5754B20024C402 /* MovementComponent.swift in Sources */,
+				D42224D52A5754B20024C402 /* ScoreComponent.swift in Sources */,
+				D42224CF2A5754B20024C402 /* Scene.swift in Sources */,
+				D42224DB2A5754B20024C402 /* GameRunningState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
